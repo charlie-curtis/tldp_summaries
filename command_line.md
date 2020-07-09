@@ -11,4 +11,15 @@ man -k OR apropos - search whatis database for a specific string
 2> - redirect stderr
 &> - redirect stderr and stdout
 tee - mostly used in combination with pipes; you can print text to both stdout AND some file if desired echo "test" | tee test.txt
-
+use backticks or parenthesis for command substitution
+  $(echo "ls")
+  `echo ls`
+perform multiple commands
+  command1 || command2
+  command1 && command2
+  command1; command2;
+ln -s - create symbolic link
+du - prints filesize
+time - track how long a program took to execute
+who - show which users are logged in
+w - similar to `who` but also shows the user's activity
