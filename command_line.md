@@ -43,3 +43,7 @@ perform multiple commands
 `who` - show which users are logged in
 
 `w` - similar to `who` but also shows the user's activity
+
+`df -h` - prints info about disk usage
+
+`free` - prints memory statistics
