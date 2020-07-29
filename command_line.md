@@ -38,6 +38,7 @@ perform multiple commands
 `du` - prints filesize
 
 `time` - track how long a program took to execute
+  - `time sleep 2`
 
 `who` - show which users are logged in
 
