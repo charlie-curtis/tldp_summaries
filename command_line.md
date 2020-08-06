@@ -47,3 +47,15 @@ perform multiple commands
 `df -h` - prints info about disk usage
 
 `free` - prints memory statistics
+
+`cal 9 2020` - displays the month of sept 2020 in a calendar format
+
+`ps` - lists process information for your user & have a controlling terminal
+
+`CTRL-Z` - suspends a program
+
+`bg` - resumes the last program suspended; you can also supply the job_number 
+
+`jobs` - lists any processes that you've sent to the background
+
+`fg job_number` - brings the job to the foreground
